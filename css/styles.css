@@ -1,7 +1,12 @@
-:root
-
-
-
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  color: #212121;
+  background-color: #ffffff;
+}
 
 /* #FFFFFF основной фон */
 /* #F5F4FA background для кнопок в портфолио и секция наша команда */
@@ -17,4 +22,37 @@ a {
 
 ul {
   list-style: none;
+}
+
+/* Header */
+/* logo */
+
+.logo {
+  color: #000000;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+/* Navigation */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contact-list .link {
+  color: var(--primary-text-color);
+}
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: var(--accent-color);
 }
